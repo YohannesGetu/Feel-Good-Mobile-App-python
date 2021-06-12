@@ -44,13 +44,17 @@
 <SignUpScreen>:
     GridLayout:
         cols: 1
+        padding: 20, 20
+        spacing: 20, 20
         Label:
             text: "Sign up for a space journey!"
+            font_size: '20sp'
         TextInput:
             id: username
             hint_text: "Username"
         TextInput:
             id: password
+            password: True
             hint_text: "Password"
         Button:
             text: "Submit"
